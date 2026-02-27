@@ -2,6 +2,9 @@
 .nav-toggle{
     display: none;
 }
+body.menu-open{
+    overflow: hidden;
+}
 
 /* EEE Students Association – DUET | Professional Academic Theme */
 :root {
@@ -688,5 +691,6 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
 
 
