@@ -105,4 +105,6 @@ galleryImages.forEach(img => {
 function toggleMenu(){
     document.getElementById("mobileMenu")
     .classList.toggle("open");
+    document.body.classList.toggle("menu-open");
 }
+
