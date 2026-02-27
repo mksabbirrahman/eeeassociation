@@ -683,3 +683,8 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+function toggleMenu(){
+    document.getElementById("mobileMenu")
+    .classList.toggle("open");
+}
+
