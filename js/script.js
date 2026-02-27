@@ -102,3 +102,7 @@ galleryImages.forEach(img => {
         document.body.appendChild(overlay);
     });
 });
+function toggleMenu(){
+    document.getElementById("mobileMenu")
+    .classList.toggle("open");
+}
