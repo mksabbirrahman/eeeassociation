@@ -1,3 +1,8 @@
+/* Hide menu button on desktop */
+.nav-toggle{
+    display: none;
+}
+
 /* EEE Students Association – DUET | Professional Academic Theme */
 :root {
     --primary: #1a237e;
@@ -683,4 +688,5 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
 
